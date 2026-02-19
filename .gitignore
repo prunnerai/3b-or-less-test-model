@@ -1,0 +1,37 @@
+# Model weights
+weights/*.bin
+weights/*.safetensors
+weights/*.pt
+weights/*.gguf
+!weights/.gitkeep
+
+# Checkpoints
+checkpoints/*.pt
+checkpoints/*.safetensors
+!checkpoints/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+wandb/
